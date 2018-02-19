@@ -1,3 +1,14 @@
+body {
+    font-family: 'Almendra' serif;
+    color: #b6dff7;
+    text-align: center;
+    background-image: url("../images/white_dragon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: gray;
+    background-attachment: fixed;
+}
 
 h1, .jumbotron {
 	text-align: center;
@@ -18,22 +29,7 @@ h2 {
    width: 1020px;
     height: 200px;
     margin-top: 30px;
-    /* https://fontmeme.com/permalink/180216/90d33395647c3d3a2c7507ba465f6fcd.png */
 }
-/* #bannerPhoto {
-    width: 1140px;
-    height: 196px;
-} */
-
-body {
-    font-family: 'Almendra', serif;
-    color: #b6dff7;
-    text-align: center;
-    background-image: url("../images/white_dragon.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 img {
 	width: 400px;
 	height: 400px;
@@ -45,7 +41,7 @@ img {
   border-color: #FFFFFF; 
 } 
  
-/* .btn:hover, 
+.btn:hover, 
 .btn:focus, 
 .btn:active, 
 .btn.active, 
@@ -54,7 +50,7 @@ img {
   background-color: #000000; 
   border-color: #FFFFFF; 
 } 
-  */
+ 
 .btn:active, 
 .btn.active, 
 .open .dropdown-toggle.btn { 
